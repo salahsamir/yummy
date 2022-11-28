@@ -1,0 +1,27 @@
+.img{
+    width: 200px;
+    /* height: 200px; */
+}
+.hover{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+    background-color: rgba(140, 140, 141, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ opacity: 0;
+    transition: top .5s linear;
+}
+.inner{
+    position: relative;
+    cursor: pointer;
+}
+.inner:hover .hover{
+   opacity: 1;
+    top: 0%;
+}
